@@ -20,7 +20,7 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    width: 50vw;
+    width: 55rem;
     margin: auto;
     border-radius: 1rem;
     margin-top: 6rem;
@@ -121,16 +121,85 @@ li{
     background: linear-gradient(to right , hsl(346, 100%, 66%), hsl(15, 100%, 62%));
 }
 
-
-
-
 .attribution { 
     font-size: 11px; 
     text-align: center; 
     margin-top: 2rem;
     font-family: "roboto-bold";
-    color: white;
+    color: rgb(104, 99, 99);
 }
 .attribution a {
     color: hsl(231, 7%, 60%); 
+ }
+
+ @media (max-width:1503px){
+    .success-page {
+        width: 30rem;
+    }
+ }
+ @media (max-width:938px) {
+    .main-login {
+        flex-direction: column;
+        order: 1;
+        width: 28rem;
+    }
+    article {
+        padding-left: 0rem;
+        width: 24rem;
+        order: 2;
+    }
+ }
+ @media (max-width:511px){
+    .success-page {
+        width: 22rem;
+        padding: 2rem;
+    }
+    h1 {
+        font-family: "roboto-bold";
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .main-login {
+        padding: 0 0 1rem 0;
+    }
+    .main-login {
+        flex-direction: column;
+        order: 1;
+        width: 100vw;
+        height: auto;
+        margin-top: 0;
+        border-radius: 0;
+    }
+    #mobile-img{
+        width: 100vw;
+    }
+    article {
+        padding-left: 0rem;
+        width: 90vw;
+        order: 2;
+        padding-top: 2rem;
+    }
+    li {
+        font-size: 0.8rem;
+    }
+    .success-page {
+        width: 100vw;
+        padding: 1rem;
+        margin-top: 0;
+        border-radius: 0;
+    }
+    body{
+        background-color: white;
+    }
+   
+ }
+ @media (max-width:375px){
+    .success-page {
+        width: 20rem;
+        padding: 1rem;
+    }
+    p {
+        font-family: "roboto-regular";
+        font-size: 0.8rem;
+    }
  }

@@ -26,13 +26,13 @@
           <span id="txt-bfr-email">Email address</span>
           <span id="error-span">Valid email required</span>
         </div>
-        <input type="email" name="" id="email-input" placeholder="email@company.com">
-        <input type="button" value="Subscribe to monthly newsletter" id="submit-button">
+        <input type="email" name="" id="email-input" placeholder="email@company.com" oninput="emailValidate()">
+        <input type="button" value="Subscribe to monthly newsletter" id="submit-button" onclick="showtheSuccessPage()">
       </div> 
     </article>
     <picture>
-      <source media="(max-width:720px)" srcset="assets/images/illustration-sign-up-mobile.svg">
-      <img src="assets/images/illustration-sign-up-desktop.svg" alt="">
+      <source media="(max-width:938px)" srcset="assets/images/illustration-sign-up-mobile.svg" >
+      <img src="assets/images/illustration-sign-up-desktop.svg" alt="" id="mobile-img">
     </picture>
 </main>
 
@@ -56,6 +56,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/RebecaFreitass">Rebeca Teixeira</a>.
   </div>
-  <script type="module" src="js.js"></script>
+  <script type="" src="js.js"></script>
 </body>
 </html>
