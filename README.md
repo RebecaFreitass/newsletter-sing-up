@@ -1,7 +1,7 @@
 # Frontend Mentor - Newsletter sign-up form with success message
 Status: **Finalizado 😃**
  ### Descrição do Site
-   Este projeto é uma landing page com sections curvadas, design desenvolvido por [Front-End Mentor](https://www.frontendmentor.io/) usando CSS responisvo e Media queries
+   Este projeto é uma single page que faz uma assinatura por email em uma newsletter, design desenvolvido por [Front-End Mentor](https://www.frontendmentor.io/) usando CSS responisvo e Media queries
    
  ### Autores
 - [@RebecaFreitass](https://github.com/RebecaFreitass)
