@@ -6,11 +6,6 @@ Status: **Finalizado 😃**
  ### Autores
 - [@RebecaFreitass](https://github.com/RebecaFreitass)
 
-  
-## Experimente!  [        hudle-landing-page-with-curved-serctions        ]()
-
-
-
-
+    ## Experimente!  [   Newsletter sign-up form with success message]()
 visite meu perfil no [linkedin](https://www.linkedin.com/in/rebeca-freitas-16b16a232/) 💟
 
